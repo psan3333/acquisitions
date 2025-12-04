@@ -1,25 +1,36 @@
 {
-  "name": "acquisitions",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "dev": "node --watch src/index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/psan3333/acquisitions.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "module",
-  "bugs": {
-    "url": "https://github.com/psan3333/acquisitions/issues"
-  },
-  "homepage": "https://github.com/psan3333/acquisitions#readme",
-  "dependencies": {
-    "dotenv": "^17.2.3",
-    "express": "^5.2.1"
-  }
+    "name": "acquisitions",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "node --watch src/index.js",
+        "lint": "eslint .",
+        "lint:fix": "eslint . --fix",
+        "format": "prettier --write .",
+        "format:check": "prettier --check ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/psan3333/acquisitions.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "module",
+    "bugs": {
+        "url": "https://github.com/psan3333/acquisitions/issues"
+    },
+    "homepage": "https://github.com/psan3333/acquisitions#readme",
+    "dependencies": {
+        "dotenv": "^17.2.3",
+        "express": "^5.2.1"
+    },
+    "devDependencies": {
+        "@eslint/js": "^9.39.1",
+        "eslint": "^9.39.1",
+        "eslint-config-prettier": "^10.1.8",
+        "eslint-plugin-prettier": "^5.5.4",
+        "prettier": "^3.7.4"
+    }
 }
